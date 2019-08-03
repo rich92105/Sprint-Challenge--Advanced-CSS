@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+ A responsive website adapts to all screens across devices.
 
 2. Describe what it means to be mobile first vs desktop first.
+ Desktop first means the developer begins designing for the desktop first and then removes or rearranges features for the smaller screen mobile version.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Font size 62.5% in HTML makes it easy for the developer to convert to rems by making everything 10 based. 
+
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is its own programming language that makes it easier to use CSS 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+It makes it easy to change on thing , and it affects your entire project because you set it up that way
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -96,7 +103,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [x] Add a viewport meta tag to the head of your index.html page
 
 * [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
